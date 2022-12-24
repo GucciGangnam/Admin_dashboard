@@ -5,7 +5,7 @@ body {
 
 .main-container { 
     display: grid;
-    grid-template-columns: minmax(200px, 300px) 3fr;
+    grid-template-columns: minmax(160px, 300px) 3fr;
     grid-template-rows: minmax(150px, 200px) 3fr;
     width: 100%;
     height: 100vh;
@@ -104,14 +104,12 @@ body {
     grid-row: 2 / 3;
     background-color: #00adef;
     display: flex;
-  
 }
     .button-container { 
         display: flex;
         flex-direction: column;
         width: 100%;
         gap: 8px;
-      
     }
         .page-btn {
             background-color: #00abef00;
@@ -119,7 +117,7 @@ body {
             border: none;
             text-align: left;
             padding: 8px;
-            font-size: 1.5em;
+            font-size: 1.2em;
             color: white;
             margin: 0px;
             display: inline-block;
@@ -143,4 +141,87 @@ body {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     background-color: rgb(232, 232, 232);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
 }
+
+    .main-right-flex { 
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        gap: 0px;
+        margin-top: 15px;
+        font-size: 0.8em;
+        
+    }
+
+        .announcement-card { 
+            background-color: white;
+            padding: 15px;
+            width: 80%;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+            min-width: 200px;
+            
+        }
+        .annnouncement-seperator { 
+            height: 1px;
+            background-color: rgb(206, 206, 206);
+            width: 100%;
+            
+        }
+        .trending-card { 
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            padding: 15px;
+            width: 80%;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+            min-width: 200px;
+        }
+            .trending-profile { 
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            }
+            .user-name-btn { 
+                border: none;
+                background-color: rgba(222, 222, 222, 0);
+                font-weight: bold;
+                padding: 0px;
+                margin: 0px;
+                font-size: 1em;
+                cursor: pointer;
+            }
+            .user-name-btn:hover { 
+                color: salmon;
+            }
+    .main-left-flex { 
+       display: flex;
+       min-width: 200px;
+       flex-wrap: wrap;
+       gap: 25px;
+       justify-content: start;
+       font-size: 0.8em;
+       margin-top: 15px;
+       margin-left: 15px;
+     
+    }
+    .main-cards-flex { 
+     
+        
+    }
+        .main-card { 
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+            padding: 15px;
+            height: 200px;
+            min-width: 200px;
+        }
