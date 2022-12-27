@@ -197,7 +197,7 @@ body {
                 cursor: pointer;
             }
             .user-name-btn:hover { 
-                color: salmon;
+                color: #fa8072;
             }
     .main-left-flex { 
         display: flex; 
@@ -235,4 +235,13 @@ body {
                 }
                     .card-buttons { 
                         text-align: end;
+                    }
+                    .crd-btn { 
+                        border: none; 
+                        background-color: rgba(222, 222, 222, 0);
+                    }
+                    .crd-btn:hover { 
+                        color: salmon;
+                        cursor: pointer;
+                        rotate: 10deg;
                     }
